@@ -1,0 +1,623 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/filespace/s/somashekhar/ece552/src-test
+vA2D_intf
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z1 !s110 1575940374
+!i10b 1
+!s100 W^OYX4o5QF@EUOO<GCgBf2
+!s11b 7DLkW^;fLfII3NCSA4W540
+IXA3fL[GaIzZcUlB@:5jb61
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 d/filespace/s/somashekhar/ece551/temp_test
+Z4 w1575486696
+8/filespace/s/somashekhar/ece551/temp_test/A2D_intf.sv
+F/filespace/s/somashekhar/ece551/temp_test/A2D_intf.sv
+L0 1
+Z5 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z6 !s108 1575940374.000000
+!s107 /filespace/s/somashekhar/ece551/temp_test/A2D_intf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/A2D_intf.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@a2@d_intf
+vAnalogModel
+R0
+R1
+!i10b 1
+!s100 V5Mo]QPJ?<ojR=o8>V^H10
+!s11b ke`MBW??kXiTdgQcUODjX0
+IXl2G5g0141bl>`dPcZ5CX1
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/AnalogModel.sv
+F/filespace/s/somashekhar/ece551/temp_test/AnalogModel.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /filespace/s/somashekhar/ece551/temp_test/AnalogModel.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/AnalogModel.sv|
+!i113 1
+R7
+R8
+n@analog@model
+vbrushless
+R0
+R1
+!i10b 1
+!s100 ]JH:`YKbhL>KKSERm0L0h3
+!s11b T4mL`KTT=N>VeblB0k?VX0
+IbaDXl<1Sf?BQ2OFFJIOI13
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/brushless.sv
+F/filespace/s/somashekhar/ece551/temp_test/brushless.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /filespace/s/somashekhar/ece551/temp_test/brushless.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/brushless.sv|
+!i113 1
+R7
+R8
+vcadence_filt
+R0
+Z9 !s110 1575940375
+!i10b 1
+!s100 V9fjj6]B``jTlY0CT7nJ31
+!s11b 1:63I6iBJZXA=4V<D3Bcm2
+IM;<18@UzkhOghcaP<=SVF0
+R2
+S1
+R3
+w1575652891
+8/filespace/s/somashekhar/ece551/temp_test/cadence_filt.sv
+F/filespace/s/somashekhar/ece551/temp_test/cadence_filt.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /filespace/s/somashekhar/ece551/temp_test/cadence_filt.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/cadence_filt.sv|
+!i113 1
+R7
+R8
+vdesiredDrive
+R0
+R9
+!i10b 1
+!s100 `lgfEC<zk[TYhO`4CLZ?V3
+!s11b 3Ub32a]mGn86ncGZF[01i2
+Izi0:a@H23KdCFPTA@[;5J0
+R2
+S1
+R3
+w1575851662
+8/filespace/s/somashekhar/ece551/temp_test/desiredDrive.sv
+F/filespace/s/somashekhar/ece551/temp_test/desiredDrive.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z10 !s108 1575940375.000000
+!s107 /filespace/s/somashekhar/ece551/temp_test/desiredDrive.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/desiredDrive.sv|
+!i113 1
+R7
+R8
+ndesired@drive
+vDFF_8
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 LP?;FzL`zBJ3AUCCARNe?0
+IeKNDf35UABJm<hj6>VhD62
+!s105 inert_intf_sv_unit
+S1
+dI:/ece551/temp_test
+w1575867601
+8I:/ece551/temp_test/inert_intf.sv
+FI:/ece551/temp_test/inert_intf.sv
+L0 1
+OE;L;10.3c;59
+!s108 1575916892.489000
+!s107 I:/ece551/temp_test/inert_intf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/temp_test/inert_intf.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@d@f@f_8
+veBike
+R0
+R9
+!i10b 1
+!s100 Za9@ElnI[Ue1YMlW42bm83
+!s11b ;If3:0@;iG1A:6Lme4KB62
+IICnU:ESAUPaFB[8>lP;@N3
+R2
+S1
+R3
+w1575935608
+8/filespace/s/somashekhar/ece551/temp_test/eBike.sv
+F/filespace/s/somashekhar/ece551/temp_test/eBike.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 /filespace/s/somashekhar/ece551/temp_test/eBike.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/eBike.sv|
+!i113 1
+R7
+R8
+ne@bike
+veBike_tb
+R0
+R9
+!i10b 1
+!s100 fTjDI?dhg953=NGZ[=:bA3
+!s11b 1CM7`TiZi6bFJ5<TU=;n02
+I2h8GH7_2gM5fCh0Pa[h^f3
+R2
+S1
+R3
+w1575937852
+8/filespace/s/somashekhar/ece551/temp_test/eBike_tb.sv
+F/filespace/s/somashekhar/ece551/temp_test/eBike_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 /filespace/s/somashekhar/ece551/temp_test/eBike_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/eBike_tb.sv|
+!i113 1
+R7
+R8
+ne@bike_tb
+veBikePhysics
+R0
+R9
+!i10b 1
+!s100 Imddj1KfZHXS8<?U6I>nH1
+!s11b BhR81?2G6N[kfaT9z6LlS1
+I;iZD9:h?^1LGjM`f<ohPK1
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/eBikePhysics.sv
+F/filespace/s/somashekhar/ece551/temp_test/eBikePhysics.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 /filespace/s/somashekhar/ece551/temp_test/eBikePhysics.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/eBikePhysics.sv|
+!i113 1
+R7
+R8
+ne@bike@physics
+vinert_intf
+R0
+!s110 1575940456
+!i10b 1
+!s100 WRIPVzUXQHSdTRLImZ`C91
+!s11b @f6BP5`lEIYE<k?9H48_o1
+I[Y2oC=DXHJ<Y`7zA;`Xe:3
+R2
+S1
+R3
+w1575940446
+8/filespace/s/somashekhar/ece551/temp_test/inert_intf.sv
+F/filespace/s/somashekhar/ece551/temp_test/inert_intf.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1575940456.000000
+!s107 /filespace/s/somashekhar/ece551/temp_test/inert_intf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/inert_intf.sv|
+!i113 1
+R7
+R8
+vinertial_integrator
+R0
+R9
+!i10b 1
+!s100 :=Pn9EP=n69zeSKgbMLEh0
+!s11b Y]DXlRel2JOahcEYn7SWQ1
+I^eeWPFOEodN4zBFAT]j<81
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/inertial_integrator.sv
+F/filespace/s/somashekhar/ece551/temp_test/inertial_integrator.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+!s107 /filespace/s/somashekhar/ece551/temp_test/inertial_integrator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/inertial_integrator.sv|
+!i113 1
+R7
+R8
+vmtr_drv
+R0
+Z11 !s110 1575940376
+!i10b 1
+!s100 Y^U2S9_E0E_2b<2ln4^Lc1
+!s11b d`2VV`<?I:LVhIKYhMfGU0
+IFm3UFU@U5nM>UJLL^M0PQ3
+R2
+S1
+R3
+Z12 w1572729204
+Z13 8/filespace/s/somashekhar/ece551/temp_test/mtr_drv.sv
+Z14 F/filespace/s/somashekhar/ece551/temp_test/mtr_drv.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R10
+Z15 !s107 /filespace/s/somashekhar/ece551/temp_test/mtr_drv.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/mtr_drv.sv|
+!i113 1
+R7
+R8
+vmuxA
+R0
+R11
+!i10b 1
+!s100 I_gCGRW`i^cCR7cBDJhTS1
+!s11b J2I;DCY5QndFiW8PM@Q6<1
+IhjYK^Ha[V__070@DM:aH52
+R2
+S1
+R3
+R12
+R13
+R14
+L0 32
+R5
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 1
+R7
+R8
+nmux@a
+vnonoverlap
+R0
+R11
+!i10b 1
+!s100 LO5CPMZHncBYZU54nHJD^1
+!s11b T0E<7oMfU88KFR9;Nd;i10
+I=7R>04cQ[bff=d01^Idg61
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/nonoverlap.sv
+F/filespace/s/somashekhar/ece551/temp_test/nonoverlap.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z17 !s108 1575940376.000000
+!s107 /filespace/s/somashekhar/ece551/temp_test/nonoverlap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/nonoverlap.sv|
+!i113 1
+R7
+R8
+vPB_rise
+R0
+R11
+!i10b 1
+!s100 JO8_VDOg2S>PFUOgCC9`B1
+!s11b MRR8b@EBZ9_Z30IQ9^1PY3
+I?IL>[Q1EfQCZgaA9WAoWf3
+R2
+S1
+R3
+w1575650742
+8/filespace/s/somashekhar/ece551/temp_test/PB_rise.sv
+F/filespace/s/somashekhar/ece551/temp_test/PB_rise.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/s/somashekhar/ece551/temp_test/PB_rise.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/PB_rise.sv|
+!i113 1
+R7
+R8
+n@p@b_rise
+vPID
+R0
+R11
+!i10b 1
+!s100 l3ng<4zZ[PR^9KX`<;ZnQ1
+!s11b cX8SWN]T0VA5KNXRQ6i5F0
+I;=XAWzM7T`_<=ogYMAlKP3
+R2
+S1
+R3
+w1575849055
+8/filespace/s/somashekhar/ece551/temp_test/PID.sv
+F/filespace/s/somashekhar/ece551/temp_test/PID.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/s/somashekhar/ece551/temp_test/PID.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/PID.sv|
+!i113 1
+R7
+R8
+n@p@i@d
+vPWM11
+R0
+R11
+!i10b 1
+!s100 S`5`a<LgjfK8k[AQNVe=R1
+!s11b I8f^z@V1GIc_eXPWOIj@m2
+I5^H<SCjm91>cJdaKjC@Qi2
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/PWM11.sv
+F/filespace/s/somashekhar/ece551/temp_test/PWM11.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/s/somashekhar/ece551/temp_test/PWM11.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/PWM11.sv|
+!i113 1
+R7
+R8
+n@p@w@m11
+vrst_synch
+R11
+!i10b 1
+!s100 KcL1V]L:VhK7ckE_cPZih2
+!s11b `;O21Bb3a;BdGN1b:;7Km0
+I[bY23h0gNagX5C03i[Kf@1
+R2
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/rst_synch.v
+F/filespace/s/somashekhar/ece551/temp_test/rst_synch.v
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/s/somashekhar/ece551/temp_test/rst_synch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/somashekhar/ece551/temp_test/rst_synch.v|
+!i113 1
+o-work work
+R8
+vsensorCondition
+R0
+Z18 !s110 1575940377
+!i10b 1
+!s100 a_;`inf=>CIJzGc77@daI2
+!s11b eS:V;_0W>]Y[zK^GTNoSD1
+IYl@iPLd5VIWmPI5dDI7R:0
+R2
+S1
+R3
+w1575846997
+8/filespace/s/somashekhar/ece551/temp_test/sensorCondition.sv
+F/filespace/s/somashekhar/ece551/temp_test/sensorCondition.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z19 !s108 1575940377.000000
+!s107 /filespace/s/somashekhar/ece551/temp_test/sensorCondition.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/sensorCondition.sv|
+!i113 1
+R7
+R8
+nsensor@condition
+vSPI_ADC128S
+R0
+R18
+!i10b 1
+!s100 93oj0i;UV@::cHMPGHMJ>1
+!s11b TC^O^B1ahL`30S1Mz8RJN2
+I5GlA`@=k>jKNcC<[3d_1h1
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/SPI_ADC128S.sv
+F/filespace/s/somashekhar/ece551/temp_test/SPI_ADC128S.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/s/somashekhar/ece551/temp_test/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/SPI_ADC128S.sv|
+!i113 1
+R7
+R8
+n@s@p@i_@a@d@c128@s
+vspi_master
+R0
+!s110 1575934886
+!i10b 1
+!s100 c8Z2B0X`XYF9aOimW`[G=0
+!s11b MaV7X@K_G6QYI;b[IFV=C0
+I2m?IP^Udg0;dOM`2@mJOc3
+R2
+S1
+R3
+w1575917406
+Z20 8/filespace/s/somashekhar/ece551/temp_test/SPI_mstr.sv
+Z21 F/filespace/s/somashekhar/ece551/temp_test/SPI_mstr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1575934886.000000
+!s107 /filespace/s/somashekhar/ece551/temp_test/SPI_mstr.sv|
+Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/SPI_mstr.sv|
+!i113 1
+R7
+R8
+vSPI_mstr
+R0
+!s110 1575940925
+!i10b 1
+!s100 M>>J9ZzYBS_gVD2cfB@1J3
+!s11b z0bIf8@0dYie0;zT?^DF?2
+Iek2<<7FFn@CM;IGbY6X@R1
+R2
+S1
+R3
+w1575940914
+R20
+R21
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1575940924.000000
+Z23 !s107 /filespace/s/somashekhar/ece551/temp_test/SPI_mstr.sv|
+R22
+!i113 1
+R7
+R8
+n@s@p@i_mstr
+vtelemetry
+R0
+R18
+!i10b 1
+!s100 PNlD1a>GzdX4Y=fNjkT:E1
+!s11b 0NhCRQ24dGCg?D;G0bKjl2
+IjHEe?]NSMHc`_8;H2I6de0
+R2
+S1
+R3
+R4
+8/filespace/s/somashekhar/ece551/temp_test/telemetry.sv
+F/filespace/s/somashekhar/ece551/temp_test/telemetry.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/s/somashekhar/ece551/temp_test/telemetry.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/telemetry.sv|
+!i113 1
+R7
+R8
+vUART_rcv
+R0
+R18
+!i10b 1
+!s100 e?H4N6Ja[5LK1c7S6k>G20
+!s11b g[VGJBiW8nOVB^Zg]QmzQ3
+I6zMJ6Qek1LdR:NK?f<=fE1
+R2
+S1
+R3
+Z24 w1575486698
+8/filespace/s/somashekhar/ece551/temp_test/UART_rcv.sv
+F/filespace/s/somashekhar/ece551/temp_test/UART_rcv.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/s/somashekhar/ece551/temp_test/UART_rcv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/UART_rcv.sv|
+!i113 1
+R7
+R8
+n@u@a@r@t_rcv
+vUART_tx
+R0
+R18
+!i10b 1
+!s100 :Q@`FTZ_K_VTzGPje<fZh0
+!s11b CJ]S<>Ec:oZG>1SAmhLhX1
+Ib1P=F[W13^Ro;9ZVjKL]L2
+R2
+S1
+R3
+R24
+8/filespace/s/somashekhar/ece551/temp_test/UART_tx.sv
+F/filespace/s/somashekhar/ece551/temp_test/UART_tx.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/s/somashekhar/ece551/temp_test/UART_tx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/s/somashekhar/ece551/temp_test/UART_tx.sv|
+!i113 1
+R7
+R8
+n@u@a@r@t_tx

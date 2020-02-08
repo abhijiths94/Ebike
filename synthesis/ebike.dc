@@ -1,0 +1,85 @@
+#################################################################
+#		Reading in the verilog and Sverilog design files		#
+#################################################################
+
+read_file -format sverilog { 	./UART_tx.sv\
+								./telemetry.sv\
+								./cadence_filt.sv\
+								./desiredDrive.sv\
+								./sensorCondition.sv\
+								./SPI_mstr.sv\
+								./A2D_intf.sv\
+								./inertial_integrator.sv\
+								./inert_intf.sv\
+								./PID.sv\
+								./brushless.sv\
+								./PWM11.sv\
+								./nonoverlap.sv\
+								./mtr_drv.sv\
+								./PB_rise.sv\
+								./rst_synch.v\
+								./eBike.sv}
+
+#################################################################
+#				Set current_design to top level					#
+#################################################################
+set current_design eBike
+
+#################################################################
+#					Constrain and assign clock 					#
+#################################################################
+create_clock -name "clk" -period 4 	 -waveform {0 2} {clk}
+
+#################################################################
+#					Constrain input timings 					#
+#################################################################
+set_dont_touch_network [find port clk]
+set prim_inputs [remove_from_collection [all_inputs] [find port clk]]
+set_input_delay -clock clk 0.5 $prim_inputs
+
+#################################################################
+#						Constrain drive							#
+#################################################################
+set_driving_cell -lib_cell NAND2X1_RVT -library saed32rvt_tt0p85v25c $prim_inputs
+
+#################################################################
+#				Constrain Output delays and load				#
+#################################################################
+set_output_delay -clock clk 0.5 [all_outputs]
+set_load 0.15 [all_outputs]
+
+#################################################################
+#		Set wireload models and max transition time				#
+#################################################################
+set_wire_load_model -name 16000 -library saed32rvt_tt0p85v25c
+set_max_transition 0.15 [current_design]
+
+compile -map_effort medium
+
+
+#################################################################
+#	 	Set clock uncertainity and 	do fix hold time			#
+#################################################################
+set_clock_uncertainty 0.12 clk
+set_fix_hold clk
+
+ungroup -all -flatten
+
+#################################################################
+#						Compile the design						#
+#################################################################
+compile -map_effort high
+
+
+#################################################################
+#				Generate timing and area report 				#
+#################################################################
+report_timing -delay max > delay_max.rpt
+report_timing -delay min > delay_min.rpt
+report_area > area.rpt
+
+write -format verilog eBike -output eBike.vg
+
+write_sdc  ebike.sdc
+
+			

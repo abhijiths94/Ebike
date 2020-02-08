@@ -1,0 +1,18 @@
+icc_shell> gui_start
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib /filespace/s/somashekhar/ece551/temp_test_synth/apr_lib
+{apr_lib}
+icc_shell> ::iccGUI::open_mw_cel  eBike
+icc_shell> open_mw_cel eBike
+Preparing data for query................... 
+Information: Using CCS timing libraries. (TIM-024)
+Warning: Unit conflict found: Milkyway technology file resistance unit is kOhm; main library resistance unit is MOhm. (IFS-007)
+Warning: Unit conflict found: Milkyway technology file power unit is pW; main library power unit is uW. (IFS-007)
+Information: Opened "eBike.CEL;1" from "/filespace/s/somashekhar/ece551/temp_test_synth/apr_lib" library. (MWUI-068)
+{eBike}
+icc_shell> 
+icc_shell> ::iccGUI::open_mw_cel  eBike
+icc_shell> current_mw_cel {eBike.CEL;1}
+{eBike}
+icc_shell> 
+icc_shell> 

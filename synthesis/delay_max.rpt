@@ -1,0 +1,102 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : eBike
+Version: P-2019.03
+Date   : Tue Dec 10 22:33:39 2019
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32rvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: isensorCondition/Desired_drv/assist_prod2_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: isensorCondition/Desired_drv/assist_prod_reg[28]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  eBike              16000                 saed32rvt_tt0p85v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  isensorCondition/Desired_drv/assist_prod2_reg[0]/CLK (DFFARX1_RVT)
+                                                          0.00       0.00 r
+  isensorCondition/Desired_drv/assist_prod2_reg[0]/QN (DFFARX1_RVT)
+                                                          0.11       0.11 r
+  U2694/Y (NOR2X0_RVT)                                    0.09       0.20 f
+  U2695/Y (AND2X1_RVT)                                    0.05       0.25 f
+  U2696/Y (AND2X1_RVT)                                    0.06       0.32 f
+  isensorCondition/Desired_drv/mult_78/S2_2_6/S (FADDX1_RVT)
+                                                          0.17       0.48 r
+  isensorCondition/Desired_drv/mult_78/S2_3_5/CO (FADDX1_RVT)
+                                                          0.12       0.60 r
+  isensorCondition/Desired_drv/mult_78/S2_4_5/CO (FADDX1_RVT)
+                                                          0.13       0.73 r
+  isensorCondition/Desired_drv/mult_78/S2_5_5/CO (FADDX1_RVT)
+                                                          0.13       0.86 r
+  isensorCondition/Desired_drv/mult_78/S2_6_5/CO (FADDX1_RVT)
+                                                          0.13       0.98 r
+  isensorCondition/Desired_drv/mult_78/S2_7_5/CO (FADDX1_RVT)
+                                                          0.12       1.10 r
+  isensorCondition/Desired_drv/mult_78/S2_8_5/CO (FADDX1_RVT)
+                                                          0.13       1.23 r
+  isensorCondition/Desired_drv/mult_78/S2_9_5/CO (FADDX1_RVT)
+                                                          0.13       1.36 r
+  isensorCondition/Desired_drv/mult_78/S2_10_5/CO (FADDX1_RVT)
+                                                          0.13       1.49 r
+  isensorCondition/Desired_drv/mult_78/S2_11_5/CO (FADDX1_RVT)
+                                                          0.13       1.62 r
+  U2489/Y (XNOR3X1_RVT)                                   0.21       1.83 r
+  isensorCondition/Desired_drv/mult_78/S2_13_4/CO (FADDX1_RVT)
+                                                          0.12       1.95 r
+  isensorCondition/Desired_drv/mult_78/S2_14_4/CO (FADDX1_RVT)
+                                                          0.11       2.06 r
+  isensorCondition/Desired_drv/mult_78/S2_15_4/CO (FADDX1_RVT)
+                                                          0.11       2.18 r
+  isensorCondition/Desired_drv/mult_78/S2_16_4/CO (FADDX1_RVT)
+                                                          0.12       2.30 r
+  U2471/Y (OR2X1_RVT)                                     0.07       2.37 r
+  U1246/Y (AO22X1_RVT)                                    0.08       2.44 r
+  isensorCondition/Desired_drv/mult_78/S2_18_4/CO (FADDX1_RVT)
+                                                          0.13       2.57 r
+  U1243/Y (OR2X1_RVT)                                     0.07       2.64 r
+  U1242/Y (AO22X1_RVT)                                    0.08       2.72 r
+  isensorCondition/Desired_drv/mult_78/S2_20_4/CO (FADDX1_RVT)
+                                                          0.13       2.85 r
+  U2220/Y (XOR2X1_RVT)                                    0.14       2.98 f
+  U2704/Y (AND3X1_RVT)                                    0.09       3.07 f
+  U1412/Y (AND2X1_RVT)                                    0.07       3.14 f
+  U1411/Y (XOR2X1_RVT)                                    0.13       3.27 r
+  U2005/Y (XOR2X1_RVT)                                    0.14       3.42 f
+  U2689/Y (AND2X1_RVT)                                    0.07       3.49 f
+  U2055/Y (OR2X1_RVT)                                     0.06       3.55 f
+  U2705/Y (NAND2X0_RVT)                                   0.05       3.60 r
+  U2031/Y (XNOR3X1_RVT)                                   0.19       3.79 r
+  isensorCondition/Desired_drv/assist_prod_reg[28]/D (DFFARX1_RVT)
+                                                          0.01       3.80 r
+  data arrival time                                                  3.80
+
+  clock clk (rise edge)                                   4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  clock uncertainty                                      -0.12       3.88
+  isensorCondition/Desired_drv/assist_prod_reg[28]/CLK (DFFARX1_RVT)
+                                                          0.00       3.88 r
+  library setup time                                     -0.07       3.81
+  data required time                                                 3.81
+  --------------------------------------------------------------------------
+  data required time                                                 3.81
+  data arrival time                                                 -3.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1
